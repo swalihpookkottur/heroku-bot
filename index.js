@@ -1,10 +1,6 @@
-const express = require('express')
-const app = express()
-const port = process.env.PORT || 80;
-app.listen('PORT')
-app.get('/',(req,res)=>{
-res.end('hello')
-}
+
+const PORT = process.env.PORT || 80
+
 
   const TelegramBot = require("node-telegram-bot-api");
   const Token ='1337356141:AAF29ZbidJbRabn-UWEeI94K8v_VQ8dZRUw';
