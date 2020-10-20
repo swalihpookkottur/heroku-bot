@@ -1,0 +1,14 @@
+{
+  "name": "tg-bot",
+  "version": "1.0.0",
+  "description": "Bot",
+  "main": "index.js",
+  "scripts": {
+    "strat": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
