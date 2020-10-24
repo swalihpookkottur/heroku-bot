@@ -6,6 +6,12 @@
   "scripts": {
     "strat": "node index.js"
   },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines":{
+   "node":"14.12.0"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
