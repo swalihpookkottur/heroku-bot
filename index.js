@@ -16,7 +16,7 @@
             bot.sendMessage(chatid,"i am alive")
             if (msg.new_chat_members != null ){
                
-              bot.sendMessage(chatid,stringify(msg,null,4)
+           
               if (msg.new_chat_member.is_bot== false){
               for(let i=0;i<msg.new_chat_members.length;i++){
                 let mark = `Salom ,[${msg.new_chat_members[i].first_name}](tg://user?id=${msg.new_chat_members[i].id})Guruhimizga xush kelibsiz`;
