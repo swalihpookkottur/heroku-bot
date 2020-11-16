@@ -13,7 +13,7 @@
     console.log('Bot has been started ....');
     bot.on('message', function (msg) {
             chatid = msg.chat.id;
-        
+            bot.sendMessage(chatid,"i am alive")
             if (msg.new_chat_members != null ){
                
                
